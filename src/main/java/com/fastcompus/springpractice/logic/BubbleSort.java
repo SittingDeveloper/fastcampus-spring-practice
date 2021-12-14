@@ -1,8 +1,11 @@
-package com.fastcompus.javaoop.logic;
+package com.fastcompus.springpractice.logic;
+
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Component // Bean 으로 인식된다.
 public class BubbleSort<T extends Comparable<T>> implements Sort<T>{
 
     @Override // 구현된 메서드, 꼭 없어도 되지만 그냥 이름만 명시하는 거임

@@ -1,6 +1,6 @@
-package com.fastcompus.javaoop.service;
+package com.fastcompus.springpractice.service;
 
-import com.fastcompus.javaoop.logic.JavaSort;
+import com.fastcompus.springpractice.logic.JavaSort;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
